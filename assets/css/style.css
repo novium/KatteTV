@@ -42,7 +42,8 @@ nav {
 	color: rgb(255, 255, 255);
 	font-size: 24px;
 	margin-left: 5px;
-	text-shadow: 0 0 5px rgb(0, 0, 0);
+	font-weight: 100 !important;
+	text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
 }
 
 .time {
@@ -66,4 +67,15 @@ nav {
 
 #twitter-widget-0 {
 	height: 100%;
+}
+
+footer {
+	position: absolute;
+	bottom: 2px;
+	float: right;
+	right: 2px;
+	color: rgb(0, 0, 0);
+	text-shadow: 0 0 10px rgb(0, 0, 0);
+	font-size: 10px;
+	opacity: 0.3;
 }
