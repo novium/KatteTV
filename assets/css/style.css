@@ -1,0 +1,63 @@
+html {
+	overflow-y: hidden;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+	padding: 0;
+	padding-top: 50px;
+}
+
+#itext {
+	font-size: 36px;
+	color: #fff;
+	margin-top: -5px;
+	padding-top: 0;
+	float: right;
+}
+
+#divwrap {
+	position: absolute;
+	width: 50%;
+	top: 50px;
+	bottom: 5px;
+	left: 5px;
+}
+
+nav {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	height: 40px;
+	background: rgb(200, 0, 0);
+	box-shadow: 0 5px 0 rgb(150, 0, 0);
+	padding-top: 5px;
+}
+
+.title {
+	display: inline;
+	color: rgb(255, 255, 255);
+	font-size: 24px;
+	margin-left: 5px;
+	text-shadow: 0 0 5px rgb(0, 0, 0);
+}
+
+.time {
+	display: inline-block;
+	float: right;
+	color: white;
+	font-style: bold;
+	font-size: 24px;
+	margin-right: 5px;
+}
+
+.twitter {
+	position: absolute;
+	right: 0px;
+	width: 50%;
+	top: 60px;
+
+	text-align: center;
+}
