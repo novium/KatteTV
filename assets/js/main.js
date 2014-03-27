@@ -37,9 +37,7 @@ function ReplaceText() {
 		},
 		success: function(rdata) {
 			curid = rdata.id;
-			$('#divwrap').html(rdata.body); 
-			$('#divwrap').css('border-color',rdata.bcol);
-			$('#divwrap').css('background-color',rdata.bgcol);
+			$('#divwrap').html(rdata.body);
 			$('#divwrap').show('fade');
 			if(vid == "") {
 				setTimeout("Hider()",rdata.timeout);

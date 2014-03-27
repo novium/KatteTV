@@ -7,6 +7,7 @@ body {
 	margin: 0;
 	padding: 0;
 	padding-top: 50px;
+	background: url("../cubes.png") repeat;
 }
 
 #itext {
@@ -20,7 +21,7 @@ body {
 #divwrap {
 	position: absolute;
 	width: 50%;
-	top: 50px;
+	top: 60px;
 	bottom: 5px;
 	left: 5px;
 }
@@ -32,7 +33,7 @@ nav {
 	left: 0;
 	height: 40px;
 	background: rgb(200, 0, 0);
-	box-shadow: 0 5px 0 rgb(150, 0, 0);
+	box-shadow: 0 5px 0 rgb(150, 0, 0), 0 5px 5px rgb(0, 0, 0);
 	padding-top: 5px;
 }
 
@@ -58,6 +59,11 @@ nav {
 	right: 0px;
 	width: 50%;
 	top: 60px;
+	bottom: 5px;
 
 	text-align: center;
+}
+
+#twitter-widget-0 {
+	height: 100%;
 }
